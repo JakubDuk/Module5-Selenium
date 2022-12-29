@@ -7,7 +7,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class Logintest {
 
     public static void main(String[] args) {
-        System.setProperty("webdriver.gecko.driver", "C:\\Webdrivers\\geckodriver.exe");
+        System.setProperty("webdriver.gecko.driver", "geckodriver");
         FirefoxDriver driver = new FirefoxDriver();
         driver.get("http://192.168.0.105:3001");
         driver.manage().window().maximize();
